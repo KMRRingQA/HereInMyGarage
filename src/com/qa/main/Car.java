@@ -4,9 +4,9 @@ public class Car extends Vehicle {
 
 	private boolean fourWheelDrive;
 
-	public Car(String brand, Integer mileage, String colour) {
+	public Car(String brand, Integer mileage, String colour, boolean fourWheelDrive) {
 		super(brand, mileage, colour);
-		// TODO Auto-generated constructor stub
+		this.setFourWheelDrive(fourWheelDrive);
 	}
 
 	public boolean isFourWheelDrive() {

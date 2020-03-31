@@ -4,9 +4,9 @@ public class Motorcycle extends Vehicle {
 
 	private boolean isScooter;
 
-	public Motorcycle(String brand, Integer mileage, String colour) {
+	public Motorcycle(String brand, Integer mileage, String colour, boolean isScooter) {
 		super(brand, mileage, colour);
-		// TODO Auto-generated constructor stub
+		this.setisScooter(isScooter);
 	}
 
 	public boolean getisScooter() {
